@@ -12,7 +12,7 @@ class PgWarren < Formula
 
   bottle do
     root_url "https://github.com/ExaDev/pg_warren/releases/download/v0.7.0"
-    sha256 cellar: :any, arm64_sequoia: "7adbb861a85c4408571ee6687ad44e6d2bc51a0c9b4f72dad3576774fbc81925"
+    sha256 cellar: :any, arm64_sequoia: "ad17e50101cda82cec50f4042081209ca1d15d338ff021cfde29b6551c8fc9f0"
   end
   depends_on "postgresql@17" => [:build, :test]
   depends_on "postgresql@18" => [:build, :test]
