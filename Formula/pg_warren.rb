@@ -6,13 +6,13 @@
 class PgWarren < Formula
   desc "Index-free-adjacency traversal and graph compute for PostgreSQL"
   homepage "https://github.com/ExaDev/pg_warren"
-  url "https://github.com/ExaDev/pg_warren/releases/download/v0.7.0/pg_warren-0.7.0.tar.gz"
-  sha256 "95e4b0a488f60a158676d3b59b16671cf90cdc910a8ae8f73dba1ae268823488"
+  url "https://github.com/ExaDev/pg_warren/releases/download/v0.8.0/pg_warren-0.8.0.tar.gz"
+  sha256 "033462805dd33bfcd2d2a94228a146e47b65eddd58a11b95aef360e325a4fef7"
   license "Apache-2.0"
 
   bottle do
-    root_url "https://github.com/ExaDev/pg_warren/releases/download/v0.7.0"
-    sha256 cellar: :any, arm64_sequoia: "7adbb861a85c4408571ee6687ad44e6d2bc51a0c9b4f72dad3576774fbc81925"
+    root_url "https://github.com/ExaDev/pg_warren/releases/download/v0.8.0"
+    sha256 cellar: :any, arm64_sequoia: "80c26c02603408b718795240a2db8c9b843a10f0e8a8a4009c6287a92c02f7fc"
   end
   depends_on "postgresql@17" => [:build, :test]
   depends_on "postgresql@18" => [:build, :test]
